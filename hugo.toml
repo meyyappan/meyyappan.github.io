@@ -1,0 +1,22 @@
+baseURL = "https://meyyappan.github.io/"
+locale = "en-us"
+title = "meyyappan"
+paginate = 5
+
+[params]
+  description = "notes on machine learning research"
+  author = "meyyappan"
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    noClasses = true
+    lineNos = false
+    codeFences = true
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    footnote = true
+
+[taxonomies]
+  tag = "tags"
