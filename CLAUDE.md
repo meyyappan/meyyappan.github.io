@@ -2,6 +2,10 @@
 
 Personal ML research blog at meyyappan.github.io.
 
+## ⚠️ CRITICAL
+
+This is a **public repository**. Every file committed here is visible to anyone in the world. NEVER include passwords, API keys, tokens, private keys, personal information, or any sensitive data in any file in this repo.
+
 ## Stack
 
 - **Hugo** (v0.128.2 in CI, latest via nix locally) — static site generator
